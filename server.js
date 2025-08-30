@@ -7,5 +7,6 @@ const server = http.createServer((req, res) => {
 
 server.listen(5000, '0.0.0.0');
 
-console.log('Server listening on port 5000');
+console.log('HTTP Server listening on port 5000');
+
 
